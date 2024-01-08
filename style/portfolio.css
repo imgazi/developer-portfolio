@@ -53,6 +53,7 @@ nav a {
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
+
 }
 
 .banner {
@@ -97,14 +98,13 @@ nav a {
 /* main section styles */
 main {
     width: 1140px;
-    height: 550px;
     margin: 0px auto;
 }
 
 .about {
     padding: 130px;
     background: #FFF8F3;
-    margin: 130px;
+    margin: 130px 0px;
     border-radius: 10px;
 }
 
@@ -126,9 +126,7 @@ main {
 
 .about-info-container {
     display: flex;
-    justify-content: space-between ;
-    
-
+    justify-content: space-between;
 }
 
 .about-info {
@@ -148,9 +146,41 @@ main {
 
 .info-description {
     color: var(--Dark-02, #474747);
-    font-family: Open Sans;
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
     line-height: 30px;
+
+}
+
+.section-para1 {
+    padding-inline: 150px;
+    padding-block: 30px;
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.skill {
+    padding: 0px 30px;
+    box-shadow: 2px 2px 30px 5px rgb(244, 243, 243);
+    margin: 10px;
+}
+
+.skill-title {
+    padding: 30px 0px;
+}
+
+.skill-para {
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
 }
