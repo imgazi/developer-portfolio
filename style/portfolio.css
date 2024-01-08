@@ -1,0 +1,45 @@
+/* nav related styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.orange-color {
+    color: #FD6E0A;
+}
+
+/* shared google fonts */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    font-size: 20px;
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+
+.nav-title {
+    color: var(--Dark-01, #181818);
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+     margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--Dark-02, #474747);
+}
