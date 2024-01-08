@@ -2,6 +2,8 @@
 nav {
     display: flex;
     justify-content: space-between;
+    padding-inline: 200px;
+    
 }
 
 .orange-color {
@@ -11,6 +13,7 @@ nav {
 /* shared google fonts */
 body {
     font-family: 'Open Sans', sans-serif;
+    font-size: medium;
 }
 
 .button-primary {
@@ -42,4 +45,17 @@ nav li {
 nav a {
     text-decoration: none;
     color: var(--Dark-02, #474747);
+}
+/* header related styles */
+.header-class{
+    background: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px ;
+    display: flex;
+    align-items: center;
+}
+.banner img{
+    width: 500px;
+    
 }
