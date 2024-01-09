@@ -97,7 +97,7 @@ nav a {
 
 /* main section styles */
 main {
-    width: 1140px;
+    width: 1200px;
     margin: 0px auto;
 }
 
@@ -113,6 +113,7 @@ main {
     text-align: center;
     font-size: 35px;
     font-weight: 700;
+   
 }
 
 .section-para {
@@ -161,26 +162,38 @@ main {
 .skills-container {
     display: flex;
     justify-content: space-between;
-
-
 }
 
 .skill {
-    padding: 0px 30px;
+    padding: 20px 30px;
     box-shadow: 2px 2px 30px 5px rgb(244, 243, 243);
     margin: 10px;
 }
 
 .skill-title {
-    padding: 30px 0px;
+    padding: 10px 0px;
 }
 
 .skill-para {
     color: var(--Dark-03, #757575);
-    font-family: Open Sans;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 28px;
+    padding: 10px 0px;
     /* 175% */
+}
+
+.resume-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+.resume-container {
+   display: flex;
+   gap: 50px; 
+  
+}
+#summary{
+    margin-top: 100px;
 }
